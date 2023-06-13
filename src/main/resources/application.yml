@@ -1,0 +1,11 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /kafka/producer
+
+spring:
+  profiles:
+    group:
+      dev: dev
+      uat: uat
+      prod: prod
